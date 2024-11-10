@@ -13,14 +13,14 @@ import { en, es, id, ar, pt, de, it } from './lib/idiomas/total-idiomas.js'
 // EN ➜ Add the Bot number as priority first
 // EN ➜ If you want to receive reports you must use the three parameters (Number, name and true)
 global.owner = [
-['573147616444', '𝙂𝙖𝙩𝙖𝘽𝙤𝙩𝙇𝙞𝙩𝙚-𝙈𝘿 🌻🐈', true], //𝙂𝙖𝙩𝙖𝘽𝙤𝙩𝙇𝙞𝙩𝙚-𝙈𝘿 🌻🐈
-['593968263524', '𝙂𝘽 𝘼𝙨𝙞𝙨𝙩𝙚𝙣𝙘𝙞𝙖 🌻🐈', true],
-['5492266613038'], 
-['595976126756'],
-['593968585383']]
+['923318086563', '𝙂𝙖𝙩𝙖𝘽𝙤𝙩𝙇𝙞𝙩𝙚-𝙈𝘿 🌻🐈', true], //𝙂𝙖𝙩𝙖𝘽𝙤𝙩𝙇𝙞𝙩𝙚-𝙈𝘿 🌻🐈
+['923318086563', '𝙂𝘽 𝘼𝙨𝙞𝙨𝙩𝙚𝙣𝙘𝙞𝙖 🌻🐈', true],
+['923318086563'], 
+['923318086563'],
+['923318086563']]
 
-global.mods = [] 
-global.prems = []
+global.mods = ['public'] 
+global.prems = [true]
 
 // Cambiar a false para usar el Bot desde el mismo numero del Bot.
 global.isBaileysFail = true
@@ -85,7 +85,7 @@ global.APIKeys = {
   'https://api-xcoders.site': 'Frieren'
 }
 
-global.mods = [] 
+global.mods = ['public'] 
 global.cheerio = cheerio
 global.fs = fs
 global.fetch = fetch
